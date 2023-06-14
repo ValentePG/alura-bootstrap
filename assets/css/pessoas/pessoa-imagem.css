@@ -1,13 +1,17 @@
 @charset "UTF-8";
 
+:root {
+  font-size: 62.5%;
+}
+
 .pessoa__imagem {
   border-radius: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 250px;
   margin: 0 auto;
-  width: 300px;
+  width: 250px;
 }
 
 .pessoa__imagem--roberta {
@@ -21,3 +25,4 @@
 .pessoa__imagem--andreia {
   background-image: url('../../img/pessoas/andreia.jpg');
 }
+
